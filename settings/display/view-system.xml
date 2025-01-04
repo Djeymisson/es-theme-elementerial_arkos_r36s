@@ -15,8 +15,8 @@
       <systemInfoDelay>300</systemInfoDelay>
       <size>1.1 1</size>
       <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
-      <logoScale>1.4</logoScale>
-      <maxLogoCount>4</maxLogoCount>
+      <logoScale>1.6</logoScale>
+      <maxLogoCount>3</maxLogoCount>
       <logoPos>0.15 0.55</logoPos>
       <zIndex>100</zIndex>
     </carousel>
