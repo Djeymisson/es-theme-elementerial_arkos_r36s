@@ -31,7 +31,6 @@
     </imagegrid>
 
     <ninepatch name="gridtile.background">
-      <path ifSubset="Ratio:ratio32"></path>
       <path>./assets/grid-selector.png</path>
       <cornerSize>6 6</cornerSize>
     </ninepatch>
@@ -40,6 +39,8 @@
       <imageColor>FFFFFFFF</imageColor>
       <padding>2 2</padding>
       <padding ifSubset="Ratio:ratio32">2 2</padding>
+      <padding ifSubset="Ratio:ratio43">3 3</padding>
+      <padding ifSubset="Ratio:ratio53">4 4</padding>
     </gridtile>
 
     <gridtile name="selected">
@@ -68,6 +69,7 @@
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
+
       <!-- TODO: check here -->
       <snapshotSource>${videoSnapshot}</snapshotSource>
     </video>
@@ -107,6 +109,7 @@
     </rating>
 
     <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-video.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>

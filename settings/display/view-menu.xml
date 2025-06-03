@@ -30,6 +30,7 @@
 
     <menuBackground name="menubg">
       <fadePath>./assets/fade.png</fadePath>
+      <path>./assets/${ratioPath}/menu.png</path>
       <size>1 1</size>
     </menuBackground>
 

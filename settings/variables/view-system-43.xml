@@ -17,10 +17,6 @@
       <logoPos>0.15 0.6</logoPos>
     </carousel>
 
-    <image name="custom_bg_fg" extra="true">
-      <path>./assets/${ratioPath}/carousel-background.png</path>
-    </image>
-
     <!-- System Name -->
     <text name="systemName" extra="true">
       <pos>0.08333 0.375</pos>
@@ -34,22 +30,7 @@
 
   <!-- from view-general.xml -->
   <!-- ratioPath -->
-  <view name="system, basic, detailed, grid, video">
-    <image name="borderOverlay" extra="true">
-      <path>./assets/${ratioPath}/borders.png</path>
-    </image>
-
-    <image name="custom_bg_fg" extra="true">
-      <path>./assets/${ratioPath}/gamelist-basic.png</path>
-    </image>
-  </view>
-
   <view name="video">
-    <image name="custom_bg_fg" extra="true">
-      <path>./assets/${ratioPath}/gamelist-video.png</path>
-    </image>
-  </view>
-
    <view name="basic, detailed, video">
     <textlist name="gamelist">
       <lineSpacing>1.5</lineSpacing>
@@ -82,12 +63,6 @@
       <size>0.9 0.225</size>
       <padding>0.05 0</padding>
     </text>
-  </view>
-
-  <view name="system, basic, detailed, grid">
-    <image name="osdBackground" extra="true">
-      <path>./assets/${ratioPath}/osd-bg.png</path>
-    </image>
   </view>
 
   <view name="screen">
@@ -140,18 +115,6 @@
     <gridtile name="default">
       <padding>3 3</padding>
     </gridtile>
-    <!-- ratioPath -->
-    <image name="custom_bg_fg" extra="true">
-      <path>./assets/${ratioPath}/gamelist-video.png</path>
-    </image>
   </customView>
-
-  <!-- from view-menu.xml -->
-  <!-- ratioPath -->
-  <view name="menu">
-    <menuBackground name="menubg">
-      <path>./assets/${ratioPath}/menu.png</path>
-    </menuBackground>
-  </view>
 
 </theme>

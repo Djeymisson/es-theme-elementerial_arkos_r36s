@@ -10,12 +10,13 @@
   <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
-      <fontSize>0.02800</fontSize>
+      <fontSize>${fontSizeBody}</fontSize>
       <origin>0 0.5</origin>
       <pos>0.016666667 0.96</pos>
     </helpsystem>
 
     <image name="borderOverlay" extra="true">
+      <path>./assets/${ratioPath}/borders.png</path>
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
@@ -59,6 +60,7 @@
     </image>
 
     <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-basic.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -80,6 +82,12 @@
       <lineSpacing>1.55</lineSpacing>
       <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
       <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.675</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
+      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
 
     </textlist>
   </view>
@@ -122,8 +130,11 @@
       <origin>0 0</origin>
 
       <pos>0.61 0.83125</pos>      <!-- 480x320 / 304x 272y-->
+      <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
+      <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
 
       <size>0.075</size>
+      <size ifSubset="Ratio:ratio43">0.066667</size>
 
       <filledPath>./assets/icons/star.svg</filledPath>
       <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
@@ -157,9 +168,6 @@
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
 
-      <!-- <snapshotSource ifSubset="VideoSnapshot:videoThumbnail|videoDefault">thumbnail</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot">image</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource> -->
       <snapshotSource>${videoSnapshot}</snapshotSource>
       <zIndex>0</zIndex>
     </video>
@@ -177,6 +185,7 @@
     </rating>
 
     <image name="custom_bg_fg" extra="true">
+      <path>./assets/${ratioPath}/gamelist-video.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
