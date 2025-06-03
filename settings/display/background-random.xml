@@ -8,7 +8,7 @@
 
 <!-- from view-system.xml -->
     <view name="system">
-        <image name="cover" extra="true" ifSubset="Background Style:random">
+        <image name="cover" extra="true">
       <path>{random:image}</path>
     </image>
   </view>

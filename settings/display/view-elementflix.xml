@@ -68,10 +68,7 @@
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
-<!-- 
-      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail">thumbnail</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoScreenshot|videoDefault">image</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource> -->
+      <!-- TODO: check here -->
       <snapshotSource>${videoSnapshot}</snapshotSource>
     </video>
 

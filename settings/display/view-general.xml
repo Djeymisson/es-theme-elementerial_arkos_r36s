@@ -69,7 +69,7 @@
   <view name="basic, detailed, video">
     <text name="logoText">
       <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
-      <size>0.933333 ${fontSizeH2-medium}</size>      <!-- 480x320 / 448x -->
+      <size>0.933333 ${fontSizeH2}</size>      <!-- 480x320 / 448x -->
       <origin>0 0.5</origin>
     </text>
 

@@ -33,7 +33,7 @@
       <text>${system.fullName}</text>
       <origin>0 0</origin>
       <pos>0.07333 0.325</pos>      <!-- 480x320 / 48x 104y -->
-      <size>0.866667 ${fontSizeH1-medium}</size>      <!-- 480x320 / 416x -->
+      <size>0.866667 ${fontSizeH1}</size>      <!-- 480x320 / 416x -->
       <fontPath>${fontBold}</fontPath>
 
       <fontSize>${fontSizeH1}</fontSize>
@@ -47,7 +47,7 @@
     <text name="systemInfo">
       <origin>0 0</origin>
       <pos>0.07333 0.41</pos>
-      <size>0.866667 ${fontSizeBody-medium}</size>      <!-- 480x320 / 416x -->
+      <size>0.866667 ${fontSizeBody}</size>      <!-- 480x320 / 416x -->
 
       <fontSize>${fontSizeBody}</fontSize>
 
@@ -109,7 +109,7 @@
       <origin>0 0.5</origin>
       <pos>0 0.0375</pos>      <!-- 480x320 / 0x 12y-->
       <size>0.84 0</size>      <!-- 480x320 / 424x-->
-      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize>${fontSizeCaption}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
       <alignment>right</alignment>

@@ -8,7 +8,7 @@
 
   <view name="screen">
     <text name="clock">
-      <visible ifSubset="Status Bar:hidden|battery">false</visible>
+      <visible>false</visible>
     </text>
   </view>
 

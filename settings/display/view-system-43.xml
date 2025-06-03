@@ -14,21 +14,21 @@
   <view name="system">
     <!-- Cards position -->
     <carousel name="systemcarousel">
-      <logoPos ifSubset="Ratio:ratio43">0.15 0.6</logoPos>
+      <logoPos>0.15 0.6</logoPos>
     </carousel>
 
     <image name="custom_bg_fg" extra="true">
-      <path ifSubset="Ratio:ratio43">./assets/${ratioPath}/carousel-background.png</path>
+      <path>./assets/${ratioPath}/carousel-background.png</path>
     </image>
 
     <!-- System Name -->
     <text name="systemName" extra="true">
-      <pos ifSubset="Ratio:ratio43">0.08333 0.375</pos>
+      <pos>0.08333 0.375</pos>
     </text>
 
     <!-- Total games per system -->
     <text name="systemInfo">
-      <pos ifSubset="Ratio:ratio43">0.08333 0.46</pos>
+      <pos>0.08333 0.46</pos>
     </text>
   </view>
 
@@ -52,48 +52,48 @@
 
    <view name="basic, detailed, video">
     <textlist name="gamelist">
-      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
-      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
+      <lineSpacing>1.5</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.525</lineSpacing>
     </textlist>
   </view>
 
   <view name="detailed">
     <rating name="md_rating">
-      <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
-      <size ifSubset="Ratio:ratio43">0.066667</size>
+      <pos>0.6075 0.83125</pos>
+      <size>0.066667</size>
     </rating>
   </view>
 
   <!-- from view-grid.xml -->
   <view name="grid">
     <gridtile name="default">
-      <padding ifSubset="Ratio:ratio43">4 4</padding>
+      <padding>4 4</padding>
     </gridtile>
 
     <image name="gridtile.image">
-      <roundCorners ifSubset="Ratio:ratio43">0.04</roundCorners>
+      <roundCorners>0.04</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
-      <roundCorners ifSubset="Ratio:ratio43">0.025</roundCorners>
+      <roundCorners>0.025</roundCorners>
     </image>
 
     <text name="gridtile">
-      <size ifSubset="Ratio:ratio43">0.9 0.225</size>
-      <padding ifSubset="Ratio:ratio43">0.05 0</padding>
+      <size>0.9 0.225</size>
+      <padding>0.05 0</padding>
     </text>
   </view>
 
   <view name="system, basic, detailed, grid">
     <image name="osdBackground" extra="true">
-      <path ifSubset="Ratio:ratio43">./assets/${ratioPath}/osd-bg.png</path>
+      <path>./assets/${ratioPath}/osd-bg.png</path>
     </image>
   </view>
 
   <view name="screen">
     <text name="clock">      <!-- 480x320 / 0x 12y-->
-      <pos ifSubset="Ratio:ratio43">0 0.0375</pos>      <!-- 480x320 / 0x 16y-->
-      <size ifSubset="Ratio:ratio43">0.83 0</size>      <!-- 640x480 / 544x-->
+      <pos>0 0.0375</pos>      <!-- 480x320 / 0x 16y-->
+      <size>0.83 0</size>      <!-- 640x480 / 544x-->
     </text>
 
     <batteryIndicator name="batteryIndicator">
@@ -102,7 +102,7 @@
       <itemSpacing>0.008333333</itemSpacing>
     </batteryIndicator>
 
-    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:ratio43">
+    <batteryIndicator name="batteryIndicator">
       <size>0.05</size>      <!-- 24x 24y-->
 
       <!-- Assets -->
@@ -119,26 +119,26 @@
   <!-- from view-boxes.xml -->
  <customView name="boxes" inherits="grid">
     <imagegrid name="gamegrid">
-      <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
+      <margin>0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
     </imagegrid>
 
     <image name="gridtile.image">
-      <roundCorners ifSubset="Ratio:ratio43">0.025</roundCorners>
+      <roundCorners>0.025</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
-      <roundCorners ifSubset="Ratio:ratio43">0.01</roundCorners>
+      <roundCorners>0.01</roundCorners>
     </image>
  </customView>
 
  <!-- from view-elementflix.xml -->
   <customView name="elementflix" inherits="grid">
     <ninepatch name="gridtile.background">
-      <path ifSubset="Ratio:ratio43">./assets/grid-selector.png</path>
+      <path>./assets/grid-selector.png</path>
     </ninepatch>
 
     <gridtile name="default">
-      <padding ifSubset="Ratio:ratio43">3 3</padding>
+      <padding>3 3</padding>
     </gridtile>
     <!-- ratioPath -->
     <image name="custom_bg_fg" extra="true">

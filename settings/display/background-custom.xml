@@ -8,14 +8,14 @@
 
 <!-- from view-system.xml -->
     <view name="system">
-        <image name="cover" extra="true" ifSubset="Background Style:custom">
+        <image name="cover" extra="true">
             <path>./customBackground/${system.theme}.jpg</path>
             <path>./customBackground/${system.theme}.jpeg</path>
             <path>./customBackground/${system.theme}.png</path>
             <path>./customBackground/${system.theme}.webp</path>
         </image>
 
-        <image name="cover_general" extra="true" ifSubset="Background Style:custom">
+        <image name="cover_general" extra="true">
             <path>./customBackground/general.jpg</path>
             <path>./customBackground/general.jpeg</path>
             <path>./customBackground/general.png</path>
@@ -29,7 +29,7 @@
 
 <!-- from view-general.xml -->
     <view name="basic, detailed, grid, video">
-        <image name="cover_list" extra="true" ifSubset="Background Style:custom">
+        <image name="cover_list" extra="true">
             <path>./customBackground/${system.theme}.jpg</path>
             <path>./customBackground/${system.theme}.jpeg</path>
             <path>./customBackground/${system.theme}.png</path>
