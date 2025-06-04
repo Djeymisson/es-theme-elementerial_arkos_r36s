@@ -43,7 +43,7 @@
     </textlist>
 
     <image name="background">
-      <path>./assets/background.png</path>
+      <path>./assets/images/background.png</path>
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>

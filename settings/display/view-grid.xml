@@ -78,8 +78,8 @@
       <singleLineScroll>false</singleLineScroll>
       <lineSpacing>1.1</lineSpacing>
 
-      <size>${grid-gridtile-size}</size>
-      <padding>${grid-gridtile-padding}</padding>
+      <size>${grid-gridtile-text-size}</size>
+      <padding>${grid-gridtile-text-padding}</padding>
     </text>
 
     <rating name="md_rating">

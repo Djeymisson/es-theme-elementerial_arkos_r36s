@@ -11,8 +11,8 @@
 
     <!-- from view-system.xml -->
     <systemcarousel-size>1.2 1</systemcarousel-size>
-    <systemcarousel-maxLogoCoun>5</systemcarousel-size>
-    <systemcarousel-logoPos>0.2 0.55</systemcarousel-size>
+    <systemcarousel-maxLogoCount>5</systemcarousel-maxLogoCount>
+    <systemcarousel-logoPos>0.2 0.55</systemcarousel-logoPos>
     <systemName-pos>0.08333 0.325</systemName-pos>    <!--CHANGED: 0.07333 -->
     <systemInfo-pos>0.08333 0.41</systemInfo-pos>    <!--CHANGED: 0.07333 -->
     <clock-pos>0 0.041666667</clock-pos>      <!-- 480x320 / 0x 24y-->
@@ -21,7 +21,7 @@
 
     <!-- from view-general.xml -->
     <general-gamelist-lineSpacing>1.5</general-gamelist-lineSpacing>
-    <general-gamelist-lineSpacing-help>1.575</general-gamelist-lineSpacing>
+    <general-gamelist-lineSpacing-help>1.575</general-gamelist-lineSpacing-help>
     <general-rating-pos>0.62 0.83125</general-rating-pos>
     <general-rating-size>0.075</general-rating-size>
 
@@ -31,10 +31,10 @@
     <grid-gridtile-padding>8 8</grid-gridtile-padding>
     <grid-gridtile-image-roundCorners>0.025</grid-gridtile-image-roundCorners>
     <grid-gridtile-image-sel-roundCorners>0.015</grid-gridtile-image-sel-roundCorners>
-    <grid-gridtile-background-path>./assets/grid-selector@3.png</grid-gridtile-background-path>
+    <grid-gridtile-background-path>./assets/images/grid-selector@3.png</grid-gridtile-background-path>
     <grid-gridtile-background-cornerSize>10 10</grid-gridtile-background-cornerSize>
-    <grid-gridtile-size>0.9 0.18</grid-gridtile-size>
-    <grid-gridtile-padding>0.05 0</grid-gridtile-padding>
+    <grid-gridtile-text-size>0.9 0.18</grid-gridtile-text-size>
+    <grid-gridtile-text-padding>0.05 0</grid-gridtile-text-padding>
 
     <!-- from view-boxes.xml -->
     <boxes-gamegrid-margin>0.025 0.041667</boxes-gamegrid-margin>      <!-- 1920x1152 / 48x 48y -->

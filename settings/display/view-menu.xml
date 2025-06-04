@@ -29,19 +29,19 @@
     </menuText>
 
     <menuBackground name="menubg">
-      <fadePath>./assets/fade.png</fadePath>
+      <fadePath>./assets/images/fade.png</fadePath>
       <path>./assets/${ratioPath}/menu.png</path>
       <size>1 1</size>
     </menuBackground>
 
     <menuButton name="menubutton">
-      <path>./assets/button-normal.png</path>
-      <filledPath>./assets/button-hover.png</filledPath>
+      <path>./assets/images/button-normal.png</path>
+      <filledPath>./assets/images/button-hover.png</filledPath>
     </menuButton>
 
     <menuSwitch name="menuswitch">
-      <pathOn>./assets/switch-on.svg</pathOn>
-      <pathOff>./assets/switch-off.svg</pathOff>
+      <pathOn>./assets/images/switch-on.svg</pathOn>
+      <pathOff>./assets/images/switch-off.svg</pathOff>
     </menuSwitch>
 
     <menuText name="menufooter">

@@ -25,7 +25,7 @@
     </imagegrid>
 
     <ninepatch name="gridtile.background">
-      <path>./assets/grid-selector.png</path>
+      <path>./assets/images/grid-selector.png</path>
       <cornerSize>6 6</cornerSize>
     </ninepatch>
 

@@ -78,8 +78,8 @@
     </menuText>
 
     <menuTextEdit name="menutextedit">
-      <inactive>./assets/input_inactive-dark.svg</inactive>
-      <active>./assets/input_active-dark.svg</active>
+      <inactive>./assets/images/input_inactive-dark.svg</inactive>
+      <active>./assets/images/input_active-dark.svg</active>
     </menuTextEdit>
   </view>
 

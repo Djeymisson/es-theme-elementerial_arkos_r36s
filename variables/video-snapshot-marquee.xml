@@ -7,7 +7,7 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <videoSnapshot>marquee</videoSnapshot>
+    <videoSnapshotSource>marquee</videoSnapshotSource>
   </variables>
 
 </theme>

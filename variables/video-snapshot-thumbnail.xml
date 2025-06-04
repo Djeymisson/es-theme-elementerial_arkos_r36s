@@ -7,7 +7,7 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <videoSnapshot>thumb</videoSnapshot>
+    <videoSnapshotSource>thumb</videoSnapshotSource>
   </variables>
 
 </theme>
