@@ -6,12 +6,6 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <subset name="BoxArtStyle" displayName="Box art style" appliesTo="elementflix">
-    <include name="cover" displayName="Cover"/>
-    <include name="fit" displayName="Fit"/>
-    <include name="stretch" displayName="Stretch (not recommended)"/>
-  </subset>
-
   <customView name="elementflix" inherits="grid">
     <imagegrid name="gamegrid">
       <pos>0 0.475</pos> <!-- 0x 152y-->
@@ -19,7 +13,7 @@
       <size ifHelpPrompts="true">1 0.475</size>      <!--480x320 / 480x 152y-->
 
       <scrollDirection>horizontal</scrollDirection>
-      <autoLayout>3.5 1</autoLayout>
+      <autoLayout>${lementflix-gamegrid-autoLayout}</autoLayout>
 
       <imageSource>thumb</imageSource>
       <animateSelection>false</animateSelection>
@@ -37,10 +31,7 @@
 
     <gridtile name="default">
       <imageColor>FFFFFFFF</imageColor>
-      <padding>2 2</padding>
-      <padding ifSubset="Ratio:ratio32">2 2</padding>
-      <padding ifSubset="Ratio:ratio43">3 3</padding>
-      <padding ifSubset="Ratio:ratio53">4 4</padding>
+      <padding>${elementflix-gridtile-padding}</padding>
     </gridtile>
 
     <gridtile name="selected">
@@ -49,9 +40,7 @@
 
     <gridtile name="default, selected">
       <selectionMode>image</selectionMode>
-      <imageSizeMode ifSubset="BoxArtStyle:cover">minSize</imageSizeMode>
-      <imageSizeMode ifSubset="BoxArtStyle:fit">maxSize</imageSizeMode>
-      <imageSizeMode ifSubset="BoxArtStyle:stretch">size</imageSizeMode>
+      <imageSizeMode>${boxStyleMode}</imageSizeMode>
     </gridtile>
 
     <image name="md_marquee">
@@ -69,9 +58,7 @@
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
-
-      <!-- TODO: check here -->
-      <snapshotSource>${videoSnapshot}</snapshotSource>
+      <snapshotSource>${videoSnapshotSource}</snapshotSource>
     </video>
 
     <text name="md_description">

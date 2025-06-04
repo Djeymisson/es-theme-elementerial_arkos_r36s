@@ -7,7 +7,7 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <videoSnapshot>image</videoSnapshot>
+    <boxStyleMode>minSize</boxStyleMode>
   </variables>
 
 </theme>

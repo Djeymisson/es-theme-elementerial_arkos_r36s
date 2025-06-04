@@ -79,22 +79,14 @@
       <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y -->
       <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
 
-      <lineSpacing>1.55</lineSpacing>
-      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
-      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.675</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
-      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
-      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
-
+      <lineSpacing>${general-gamelist-lineSpacing}</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">${general-gamelist-lineSpacing-help}</lineSpacing>
     </textlist>
   </view>
 
   <view name="video">
     <textlist name="gamelist">
-      <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.7</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.7</lineSpacing>
     </textlist>
   </view>
 
@@ -128,13 +120,8 @@
 
     <rating name="md_rating">
       <origin>0 0</origin>
-
-      <pos>0.61 0.83125</pos>      <!-- 480x320 / 304x 272y-->
-      <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
-      <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
-
-      <size>0.075</size>
-      <size ifSubset="Ratio:ratio43">0.066667</size>
+      <pos>${general-rating-pos}</pos>      <!-- 480x320 / 304x 272y-->
+      <size>${general-rating-size}</size>
 
       <filledPath>./assets/icons/star.svg</filledPath>
       <unfilledPath>./assets/icons/star_border.svg</unfilledPath>

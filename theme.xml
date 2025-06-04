@@ -37,12 +37,18 @@
     <include name="redBerries-light" displayName="Red Berries-light">./settings/colors/red-berries-light.xml</include>
   </subset>
 
-  <include>./variables/variables.xml</include>
+  <include>./variables.xml</include>
 
   <subset name="FontSize" displayName="Font Size">
     <include name="small">./variables/font-size-small.xml</include>
     <include name="medium">./variables/font-size-medium.xml</include>
     <include name="large">./variables/font-size-large.xml</include>
+  </subset>
+
+  <subset name="Ratio" displayName="Screen ratio">
+    <include name="ratio32" displayName="3:2">./settings/variables/view-system-32.xml</include>
+    <include name="ratio43" displayName="4:3">./settings/variables/view-system-43.xml</include>
+    <include name="ratio53" displayName="5:3">./settings/variables/view-system-53.xml</include>
   </subset>
 
   <include>./settings/display/view-general.xml</include>
@@ -74,22 +80,22 @@
     <include name="hidden" displayName="Hidden">./settings/variables/status-bar-hidden.xml</include>
   </subset>
 
-  <subset name="Ratio" displayName="Screen ratio">
-    <include name="ratio32" displayName="3:2">./settings/variables/view-system-32.xml</include>
-    <include name="ratio43" displayName="4:3">./settings/variables/view-system-43.xml</include>
-    <include name="ratio53" displayName="5:3">./settings/variables/view-system-53.xml</include>
-  </subset>
-
   <subset name="Grid Game Image" displayName="Grid Game Image" appliesTo="grid">
-    <include name="gridscreenshot" displayName="Screenshot" />
-    <include name="gridthumbnail" displayName="Thumbnail" />
-    <include name="gridlogo" displayName="Logo" />
+    <include name="gridscreenshot" displayName="Screenshot">./variables/grid-image-screenshot.xml</include>
+    <include name="gridthumbnail" displayName="Thumbnail">./variables/grid-image-thumbnail.xml</include>
+    <include name="gridMarquee" displayName="Marquee">./variables/grid-image-marquee.xml</include>
   </subset>
 
   <subset name="VideoSnapshot" displayName="Video Snapshot" appliesTo="video, elementflix">
-    <include name="videoThumbnail" displayName="Thumbnail">./variables/video-snapshot-thumb.xml</include>
-    <include name="videoScreenshot" displayName="Screenshot">./variables/video-snapshot-image.xml</include>
+    <include name="videoScreenshot" displayName="Screenshot">./variables/video-snapshot-screenshot.xml</include>
+    <include name="videoThumbnail" displayName="Thumbnail">./variables/video-snapshot-thumbnail.xml</include>
     <include name="videoMarquee" displayName="Marquee">./variables/video-snapshot-marquee.xml</include>
+  </subset>
+
+  <subset name="BoxArtStyle" displayName="Box art style" appliesTo="elementflix">
+    <include name="cover" displayName="Cover">./variables/box-style-cover.xml</include>
+    <include name="fit" displayName="Fit">./variables/box-style-fit.xml</include>
+    <include name="stretch" displayName="Stretch (not recommended)">./variables/box-style-stretch.xml</include>
   </subset>
 
 </theme>

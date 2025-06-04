@@ -14,18 +14,13 @@
       <defaultTransition>fade</defaultTransition>
       <systemInfoDelay>300</systemInfoDelay>
 
-      <size>1.1 1</size>
-      <size ifSubset="Ratio:ratio53">1.2 1</size>
+      <size>${systemcarousel-size}</size>
 
       <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
       <logoScale>1.4</logoScale>          <!--CHANGED: 1.6 -->
       
-      <maxLogoCount>4</maxLogoCount>      <!--CHANGED: 3 -->
-      <maxLogoCount ifSubset="Ratio:ratio53">5</maxLogoCount>
-
-      <logoPos>0.15 0.55</logoPos>
-      <logoPos ifSubset="Ratio:ratio43">0.15 0.6</logoPos>
-      <logoPos ifSubset="Ratio:ratio53">0.2 0.55</logoPos>
+      <maxLogoCount>${systemcarousel-maxLogoCoun}</maxLogoCount>
+      <logoPos>${systemcarousel-logoPos}</logoPos>
 
       <zIndex>100</zIndex>
     </carousel>
@@ -42,8 +37,7 @@
     <text name="systemName" extra="true">
       <text>${system.fullName}</text>
       <origin>0 0</origin>
-      <pos>0.08333 0.325</pos>      <!-- 480x320 / 48x 104y --> <!--CHANGED: 0.07333 -->
-      <pos ifSubset="Ratio:ratio43">0.08333 0.375</pos>      <!-- 480x320 / 48x 104y -->
+      <pos>${systemName-pos}</pos>      <!-- 480x320 / 48x 104y -->
       <size>0.866667 ${fontSizeH1}</size>      <!-- 480x320 / 416x -->
       <fontPath>${fontBold}</fontPath>
 
@@ -57,7 +51,7 @@
     <!-- Total games per system -->
     <text name="systemInfo">
       <origin>0 0</origin>
-      <pos>0.07333 0.41</pos>
+      <pos>${systemInfo-pos}</pos>     <!-- 480x320 / 48x 132y --> 
       <size>0.866667 ${fontSizeBody}</size>      <!-- 480x320 / 416x -->
 
       <fontSize>${fontSizeBody}</fontSize>
@@ -120,16 +114,10 @@
   <view name="screen">
     <text name="clock">
       <origin>0 0.5</origin>
-      <pos>0 0.0375</pos>      <!-- 480x320 / 0x 12y-->
-      <pos ifSubset="Ratio:ratio43">0 0.0375</pos>      <!-- 480x320 / 0x 16y-->
-      <pos ifSubset="Ratio:ratio53">0 0.041666667</pos>      <!-- 480x320 / 0x 4y-->
-
-      <size>0.84 0</size>      <!-- 480x320 / 424x-->
-      <size ifSubset="Ratio:ratio43">0.83 0</size>      <!-- 640x480 / 544x-->
-      <size ifSubset="Ratio:ratio53">0.84 0</size>      <!-- 640x480 / 544x-->
+      <pos>${clock-pos}</pos>
+      <size>${clock-size}</size>
 
       <fontSize>${fontSizeCaption}</fontSize>
-      <fontSize ifSubset="Ratio:ratio53">${fontSizeBody-medium}</fontSize>
 
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
@@ -138,8 +126,7 @@
 
     <batteryIndicator name="batteryIndicator">
       <pos>0.93 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y-->
-      <size>0.05</size>      <!-- 16x 16y-->
-      <size ifSubset="Ratio:ratio53">0.0625</size>
+      <size>${batteryIndicator-size}</size>
       <itemSpacing>0.008333333</itemSpacing>
 
       <!-- Assets -->

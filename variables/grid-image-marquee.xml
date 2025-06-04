@@ -1,0 +1,14 @@
+<!--
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <gridImageSource>marquee</gridImageSource>
+    <gridImageMode>maxSize</gridImageMode>
+  </variables>
+
+</theme>

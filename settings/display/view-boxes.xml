@@ -17,7 +17,7 @@
       <scrollLoop>false</scrollLoop>
       <imageSource>image</imageSource>
       <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
-      <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
+      <margin>${boxes-gamegrid-margin}</margin>      <!-- 480x320 / 16x 16y -->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -31,11 +31,11 @@
     </gridtile>
 
     <image name="gridtile.image">
-      <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
+      <roundCorners>${boxes-gridtile-image-roundCorners}</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
-      <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
+      <roundCorners>${boxes-gridtile-image-sel-roundCorners}</roundCorners>
     </image>
 
     <image name="gridtile.marquee">
