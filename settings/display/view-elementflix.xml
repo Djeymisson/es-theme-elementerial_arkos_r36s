@@ -1,12 +1,17 @@
 <!--
   Theme: Elementerial-ArkOS
-  Author: giovaboy
 -->
 
 <theme>
   <formatVersion>7</formatVersion>
 
   <customView name="elementflix" inherits="grid">
+    <text name="logoText">
+      <origin>0 0.5</origin>
+      <pos>0.033333333 0.45</pos>
+      <fontSize>${fontSizeH3}</fontSize>
+    </text>
+    
     <imagegrid name="gamegrid">
       <pos>0 0.475</pos> <!-- 0x 152y-->
       <size>1 0.5</size>      <!--480x320 / 480x 160y-->
@@ -58,6 +63,7 @@
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
+
       <snapshotSource>${videoSnapshotSource}</snapshotSource>
     </video>
 
@@ -115,12 +121,6 @@
     <image name="gridtile.marquee">
       <color>00000000</color>
     </image>
-
-    <text name="logoText">
-      <origin>0 0.5</origin>
-      <pos>0.033333333 0.45</pos>
-      <fontSize>${fontSizeH3}</fontSize>
-    </text>
   </customView>
 
 </theme>

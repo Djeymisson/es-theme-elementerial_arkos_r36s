@@ -1,6 +1,5 @@
 <!--
   Theme: Elementerial-ArkOS
-  Author: giovaboy
 -->
 
 <theme>
@@ -9,9 +8,15 @@
   <!--Confugurações da view "video"-->
   <view name="video">
     <textlist name="gamelist">
+      <pos>0 0.45</pos>
       <size>1 0.55</size>      <!-- 480x320 / 480x 176y-->
       <size ifHelpPrompts="true">1 0.475</size>      <!-- 480x320 / 480x 152y-->
     </textlist>
+
+    <text name="logoText">
+      <origin>0 0.5</origin>
+      <pos>0.033333333 0.4</pos>
+    </text>
 
     <image name="md_marquee">
       <pos>0.2 0.1875</pos>      <!-- 480x320 / (240 + maxWidth / 2 = 352)x (80 + maxHeight / 2 = 168)y -->
@@ -23,11 +28,11 @@
       <origin>0 0.5</origin>
       <pos>0.4 0.2875</pos> <!-- 192x 92y -->
       <minSize>0.6 0.575</minSize> <!-- 288x 184y -->
-      <zIndex>0</zIndex>
       <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
+      
       <snapshotSource>${videoSnapshot}</snapshotSource>
     </video>
 
@@ -50,11 +55,6 @@
       <pos>0 0</pos>
       <zIndex>4</zIndex>
     </image>
-
-    <text name="logoText">
-      <origin>0 0.5</origin>
-      <pos>0.033333333 0.4</pos>
-    </text>
   </view>
 
 </theme>

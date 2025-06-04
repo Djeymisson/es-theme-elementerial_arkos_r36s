@@ -1,6 +1,5 @@
 <!--
   Theme: Elementerial-ArkOS
-  Author: giovaboy
 -->
 
 <theme>
@@ -11,10 +10,10 @@
 
     <!-- from view-system.xml -->
     <systemcarousel-size>1.1 1</systemcarousel-size>
-    <systemcarousel-maxLogoCount>4</systemcarousel-maxLogoCount>     <!--CHANGED: 3 -->
+    <systemcarousel-maxLogoCount>3</systemcarousel-maxLogoCount>     <!--CHANGED: 4 -->
     <systemcarousel-logoPos>0.15 0.55</systemcarousel-logoPos>
-    <systemName-pos>0.08333 0.325</systemName-pos>    <!--CHANGED: 0.07333 -->
-    <systemInfo-pos>0.08333 0.46</systemInfo-pos>    <!--CHANGED: 0.07333 -->
+    <systemName-pos>0.08333 0.325</systemName-pos>    <!--CHANGED: 0.08333 -->
+    <systemInfo-pos>0.08333 0.46</systemInfo-pos>    <!--CHANGED: 0.08333 -->
     <clock-pos>0 0.0375</clock-pos>      <!-- 480x320 / 0x 12y-->
     <clock-size>0.84 0</clock-size>      <!-- 480x320 / 424x-->
     <batteryIndicator-size>0.05</batteryIndicator-size>      <!-- 16x 16y-->
@@ -44,7 +43,6 @@
     <!-- from view-elementflix.xml -->
     <elementflix-gamegrid-autoLayout>3.5 1</elementflix-gamegrid-autoLayout>
     <elementflix-gridtile-padding>2 2</elementflix-gridtile-padding>
-  
   </variables>
 
 </theme>

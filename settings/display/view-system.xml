@@ -1,6 +1,5 @@
 <!--
   Theme: Elementerial-ArkOS
-  Author: giovaboy
 -->
 
 <theme>
@@ -14,11 +13,10 @@
       <defaultTransition>fade</defaultTransition>
       <systemInfoDelay>300</systemInfoDelay>
 
-      <size>${systemcarousel-size}</size>
-
       <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
       <logoScale>1.4</logoScale>          <!--CHANGED: 1.6 -->
       
+      <size>${systemcarousel-size}</size>
       <maxLogoCount>${systemcarousel-maxLogoCount}</maxLogoCount>
       <logoPos>${systemcarousel-logoPos}</logoPos>
 
@@ -106,16 +104,14 @@
       <origin>0 0.5</origin>
       <pos>${clock-pos}</pos>
       <size>${clock-size}</size>
-
       <fontSize>${fontSizeCaption}</fontSize>
-
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
       <alignment>right</alignment>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <pos>0.93 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y-->
+      <pos>0.90 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y--> <!--CHANGED: 0.93 -->
       <size>${batteryIndicator-size}</size>
       <itemSpacing>0.008333333</itemSpacing>
 

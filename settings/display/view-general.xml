@@ -1,26 +1,15 @@
 <!--
   Theme: Elementerial-ArkOS
-  Author: giovaboy
 -->
 
 <theme>
   <formatVersion>7</formatVersion>
 
-  <view name="system, basic, detailed, grid">
-    <image name="osdBackground" extra="true">
-      <path>./assets/${ratioPath}/osd-bg.png</path>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <size>1 1</size>
-      <zIndex>100</zIndex>
-    </image>
-  </view>
-
   <!--Configurações de ajuda-->
   <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
-      <fontSize>${fontSizeBody}</fontSize>
+      <fontSize>${fontSizeCaption}</fontSize>
       <origin>0 0.5</origin>
       <pos>0.016666667 0.96</pos>
     </helpsystem>
@@ -78,6 +67,15 @@
     </image>
   </view>
 
+  <view name="system, basic, detailed, grid">
+    <image name="osdBackground" extra="true">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>100</zIndex>
+    </image>
+  </view>
+
   <view name="basic, detailed, video">
     <text name="logoText">
       <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
@@ -86,7 +84,7 @@
     </text>
 
     <textlist name="gamelist">
-      <pos>0 0.2</pos>      <!-- 480x320 / 0x 64y -->
+      <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y --> <!-- CHANGED: 0.2 -->
       <horizontalMargin>0.033333</horizontalMargin>      <!-- 16px -->
 
       <lineSpacing>${general-gamelist-lineSpacing}</lineSpacing>
