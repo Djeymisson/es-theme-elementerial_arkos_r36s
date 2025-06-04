@@ -5,38 +5,38 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <include>./variables.xml</include>
-
   <subset name="Color scheme" displayName="Color scheme">
-    <include name="strawberry-dark" displayName="strawberry-dark">./settings/colors/strawberry-dark.xml</include>
-    <include name="strawberry-light" displayName="strawberry-light">./settings/colors/strawberry-light.xml</include>
-    <include name="orange-dark" displayName="orange-dark">./settings/colors/orange-dark.xml</include>
-    <include name="orange-light" displayName="orange-light">./settings/colors/orange-light.xml</include>
-    <include name="banana-dark" displayName="banana-dark">./settings/colors/banana-dark.xml</include>
-    <include name="banana-light" displayName="banana-light">./settings/colors/banana-light.xml</include>
-    <include name="lime-dark" displayName="lime-dark">./settings/colors/lime-dark.xml</include>
-    <include name="lime-light" displayName="lime-light">./settings/colors/lime-light.xml</include>
-    <include name="mint-dark" displayName="mint-dark">./settings/colors/mint-dark.xml</include>
-    <include name="mint-light" displayName="mint-light">./settings/colors/mint-light.xml</include>
-    <include name="blueberry-dark" displayName="blueberry-dark">./settings/colors/blueberry-dark.xml</include>
-    <include name="blueberry-light" displayName="blueberry-light">./settings/colors/blueberry-light.xml</include>
-    <include name="grape-dark" displayName="grape-dark">./settings/colors/grape-dark.xml</include>
-    <include name="grape-light" displayName="grape-light">./settings/colors/grape-light.xml</include>
-    <include name="bubblegum-dark" displayName="bubblegum-dark">./settings/colors/bubblegum-dark.xml</include>
-    <include name="bubblegum-light" displayName="bubblegum-light">./settings/colors/bubblegum-light.xml</include>
-    <include name="cocoa-dark" displayName="cocoa-dark">./settings/colors/cocoa-dark.xml</include>
-    <include name="cocoa-light" displayName="cocoa-light">./settings/colors/cocoa-light.xml</include>
-    <include name="slate-dark" displayName="slate-dark">./settings/colors/slate-dark.xml</include>
-    <include name="slate-light" displayName="slate-light">./settings/colors/slate-light.xml</include>
-    <include name="snes-dark" displayName="Snes Scheme-dark">./settings/colors/snes-dark.xml</include>
-    <include name="snes-light" displayName="Snes Scheme-light">./settings/colors/snes-light.xml</include>
-    <include name="gb-dark" displayName="Game Boy Scheme-dark">./settings/colors/gameboy-dark.xml</include>
-    <include name="gb-light" displayName="Game Boy Scheme-light">./settings/colors/gameboy-light.xml</include>
-    <include name="pikachu-dark" displayName="Pikachu Edition-dark">./settings/colors/pikachu-edition-dark.xml</include>
-    <include name="pikachu-light" displayName="Pikachu Edition-light">./settings/colors/pikachu-edition-light.xml</include>
-    <include name="redBerries-dark" displayName="Red Berries-dark">./settings/colors/red-berries-dark.xml</include>
-    <include name="redBerries-light" displayName="Red Berries-light">./settings/colors/red-berries-light.xml</include>
+    <include name="strawberry-dark" displayName="strawberry (dark)">./settings/colors/strawberry-dark.xml</include>
+    <include name="strawberry-light" displayName="strawberry (light)">./settings/colors/strawberry-light.xml</include>
+    <include name="orange-dark" displayName="orange (dark)">./settings/colors/orange-dark.xml</include>
+    <include name="orange-light" displayName="orange (light)">./settings/colors/orange-light.xml</include>
+    <include name="banana-dark" displayName="banana (dark)">./settings/colors/banana-dark.xml</include>
+    <include name="banana-light" displayName="banana (light)">./settings/colors/banana-light.xml</include>
+    <include name="lime-dark" displayName="lime (dark)">./settings/colors/lime-dark.xml</include>
+    <include name="lime-light" displayName="lime (light)">./settings/colors/lime-light.xml</include>
+    <include name="mint-dark" displayName="mint (dark)">./settings/colors/mint-dark.xml</include>
+    <include name="mint-light" displayName="mint (light)">./settings/colors/mint-light.xml</include>
+    <include name="blueberry-dark" displayName="blueberry (dark)">./settings/colors/blueberry-dark.xml</include>
+    <include name="blueberry-light" displayName="blueberry (light)">./settings/colors/blueberry-light.xml</include>
+    <include name="grape-dark" displayName="grape (dark)">./settings/colors/grape-dark.xml</include>
+    <include name="grape-light" displayName="grape (light)">./settings/colors/grape-light.xml</include>
+    <include name="bubblegum-dark" displayName="bubblegum (dark)">./settings/colors/bubblegum-dark.xml</include>
+    <include name="bubblegum-light" displayName="bubblegum (light)">./settings/colors/bubblegum-light.xml</include>
+    <include name="cocoa-dark" displayName="cocoa (dark)">./settings/colors/cocoa-dark.xml</include>
+    <include name="cocoa-light" displayName="cocoa (light)">./settings/colors/cocoa-light.xml</include>
+    <include name="slate-dark" displayName="slate (dark)">./settings/colors/slate-dark.xml</include>
+    <include name="slate-light" displayName="slate (light)">./settings/colors/slate-light.xml</include>
+    <include name="snes-dark" displayName="Snes Scheme (dark)">./settings/colors/snes-dark.xml</include>
+    <include name="snes-light" displayName="Snes Scheme (light)">./settings/colors/snes-light.xml</include>
+    <include name="gb-dark" displayName="Game Boy Scheme (dark)">./settings/colors/gameboy-dark.xml</include>
+    <include name="gb-light" displayName="Game Boy Scheme (light)">./settings/colors/gameboy-light.xml</include>
+    <include name="pikachu-dark" displayName="Pikachu Edition (dark)">./settings/colors/pikachu-edition-dark.xml</include>
+    <include name="pikachu-light" displayName="Pikachu Edition (light)">./settings/colors/pikachu-edition-light.xml</include>
+    <include name="redBerries-dark" displayName="Red Berries (dark)">./settings/colors/red-berries-dark.xml</include>
+    <include name="redBerries-light" displayName="Red Berries (light)">./settings/colors/red-berries-light.xml</include>
   </subset>
+
+  <include>./variables.xml</include>
 
   <subset name="FontSize" displayName="Font Size">
     <include name="small">./variables/font-size-small.xml</include>

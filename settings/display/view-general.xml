@@ -8,10 +8,12 @@
   <!--Configurações de ajuda-->
   <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
+      <pos>0.016666667 0.96</pos>
+      <origin>0 0.5</origin>
       <fontPath>${fontHelper}</fontPath>
       <fontSize>${fontSizeCaption}</fontSize>
-      <origin>0 0.5</origin>
-      <pos>0.016666667 0.96</pos>
+      <textColor>${fgColor}</textColor>
+      <iconColor>${sectColor}</iconColor>
     </helpsystem>
 
     <image name="borderOverlay" extra="true">
@@ -20,6 +22,10 @@
       <origin>0 0</origin>
       <size>1 1</size>
       <zIndex>100</zIndex>
+    </image>
+
+    <image name="background">
+      <color>${bgColor}</color>
     </image>
   </view>
 
@@ -33,19 +39,34 @@
       <zIndex>5</zIndex>
     </text>
 
+    <text name="logoText, md_name">
+      <color>${fgColor}${percent.90}</color>
+      <glowColor>${bgColor}${percent.10}</glowColor>
+      <glowSize>1</glowSize>
+    </text>
+
+    <rating name="md_rating">
+      <color>${sectColor}</color>
+      <unfilledColor>${sectColor}</unfilledColor>
+    </rating>
+
     <textlist name="gamelist">
+      <origin>0 0</origin>
       <fontPath>${fontRegular}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
+      <selectedColor>${onMainColor}</selectedColor>
+      <selectorColor>${mainColor}</selectorColor>
+      <primaryColor>${fgColor}</primaryColor>
+      <secondaryColor>${fgColor}</secondaryColor>
       <alignment>left</alignment>
-      <origin>0 0</origin>
       <zIndex>5</zIndex>
     </textlist>
 
     <image name="background">
-      <path>./assets/images/background.png</path>
       <pos>0 0</pos>
-      <origin>0 0</origin>
       <size>1 1</size>
+      <origin>0 0</origin>
+      <path>./assets/images/background.png</path>
       <zIndex>-10</zIndex>
     </image>
 
@@ -54,15 +75,16 @@
       <opacity>0.3</opacity>
       <size>1 0</size>
       <origin>0 0.5</origin>
-      <pos>0 0.125</pos>
+      <pos>0 0.25</pos>
       <zIndex>-5</zIndex>
     </image>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/${ratioPath}/gamelist-basic.png</path>
+      <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <pos>0 0</pos>
+      <path>./assets/${ratioPath}/gamelist-basic.png</path>
+      <color>${bgColor}</color>
       <zIndex>-4</zIndex>
     </image>
   </view>
@@ -72,6 +94,7 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
+      <color>000000</color>
       <zIndex>100</zIndex>
     </image>
   </view>

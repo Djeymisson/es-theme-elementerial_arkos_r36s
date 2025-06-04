@@ -19,6 +19,7 @@
       <size>${systemcarousel-size}</size>
       <maxLogoCount>${systemcarousel-maxLogoCount}</maxLogoCount>
       <logoPos>${systemcarousel-logoPos}</logoPos>
+      <color>${bgColor}00</color>
 
       <zIndex>100</zIndex>
     </carousel>
@@ -38,9 +39,10 @@
       <pos>${systemName-pos}</pos>      <!-- 480x320 / 48x 104y -->
       <size>0.866667 ${fontSizeH1}</size>      <!-- 480x320 / 416x -->
       <fontPath>${fontBold}</fontPath>
-
       <fontSize>${fontSizeH1}</fontSize>
-
+      <color>${fgColor}${percent.90}</color>
+      <glowColor>${bgColor}${percent.10}</glowColor>
+      <glowSize>1</glowSize>
       <lineSpacing>1</lineSpacing>
       <alignment>left</alignment>
       <zIndex>15</zIndex>
@@ -51,9 +53,10 @@
       <origin>0 0</origin>
       <pos>${systemInfo-pos}</pos>     <!-- 480x320 / 48x 132y --> 
       <size>0.866667 ${fontSizeBody}</size>      <!-- 480x320 / 416x -->
-
       <fontSize>${fontSizeBody}</fontSize>
-
+      <color>${fgColor}${percent.90}</color>
+      <glowColor>${bgColor}${percent.10}</glowColor>
+      <glowSize>1</glowSize>
       <alignment>left</alignment>
       <forceUppercase>0</forceUppercase>
       <fontPath>${fontRegular}</fontPath>
@@ -71,6 +74,9 @@
       <origin>0 0</origin>
       <fontPath>${fontRegular}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
+      <color>${fgColor}</color>
+      <glowColor>${mainColor}${percent.10}</glowColor>
+      <glowSize>1</glowSize>
     </text>
 
     <!-- System Background-->
@@ -97,6 +103,14 @@
       </storyboard>
     </image>
 
+    <image name="cover_fallback" extra="true">
+      <color>${bgColor}</color>
+    </image>
+
+    <image name="custom_bg_fg" extra="true">
+      <color>${bgColor}</color>
+    </image>
+
   </view>
 
   <view name="screen">
@@ -106,6 +120,7 @@
       <size>${clock-size}</size>
       <fontSize>${fontSizeCaption}</fontSize>
       <fontPath>${fontRegular}</fontPath>
+      <color>FFFFFF</color>
       <lineSpacing>1</lineSpacing>
       <alignment>right</alignment>
     </text>
@@ -113,6 +128,7 @@
     <batteryIndicator name="batteryIndicator">
       <pos>0.90 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y--> <!--CHANGED: 0.93 -->
       <size>${batteryIndicator-size}</size>
+      <color>FFFFFF</color>
       <itemSpacing>0.008333333</itemSpacing>
 
       <!-- Assets -->
@@ -129,8 +145,12 @@
       <origin>0 0</origin>
       <pos>0.016666 0.025</pos>
       <size>0.025</size>
-      <itemSpacing>0.003</itemSpacing>
       <imagePath>./assets/images/pin.svg</imagePath>
+      <color>${fgColor}${percent.30}</color>
+      <activityColor>${mainColor}${percent.70}</activityColor>
+      <hotkeyColor>${mainColor}</hotkeyColor>
+      <itemSpacing>0.003</itemSpacing>
     </controllerActivity>
   </view>
+  
 </theme>
