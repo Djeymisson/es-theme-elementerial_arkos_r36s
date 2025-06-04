@@ -79,6 +79,7 @@
   <include>./settings/display/view-video.xml</include>
   <include>./settings/display/view-boxes.xml</include>
   <include>./settings/display/view-elementflix.xml</include>
+  <include>./settings/display/view-videofull.xml</include>
 
   <subset name="PlayVideo" displayName="Video on carousel">
     <include name="true" displayName="Enabled">./settings/variables/view-system-video.xml</include>

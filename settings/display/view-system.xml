@@ -101,16 +101,6 @@
 
   </view>
 
-  <view name="system, basic, detailed, grid">
-    <image name="osdBackground" extra="true">
-      <path>./assets/${ratioPath}/osd-bg.png</path>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <size>1 1</size>
-      <zIndex>100</zIndex>
-    </image>
-  </view>
-
   <view name="screen">
     <text name="clock">
       <origin>0 0.5</origin>
