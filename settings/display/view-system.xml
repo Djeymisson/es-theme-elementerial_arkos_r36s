@@ -91,11 +91,11 @@
 
     <!-- System Background-->
     <image name="cover" extra="true">
-      <path>{random:image}</path>
-      <path>./assets/systems/${system.theme}.webp</path>
+      <pos>0 0.25</pos>
       <size>1 0</size>
       <origin>0 0.5</origin>
-      <pos>0 0.25</pos>
+      <path>{random:image}</path>
+      <path>./assets/systems/${system.theme}.webp</path>
       <zIndex>-9</zIndex>
 
       <storyboard>
