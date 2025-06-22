@@ -1,0 +1,22 @@
+# === VS Code ===
+.vscode/
+
+# === WebStorm / JetBrains IDEs ===
+.idea/
+
+# === Arquivos temporários comuns ===
+*.iml
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Node.js (caso use) ===
+node_modules/
+
+# === Outros ===
+dist/
+out/
+build/
+
