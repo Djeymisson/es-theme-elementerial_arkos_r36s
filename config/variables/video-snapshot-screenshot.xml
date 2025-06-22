@@ -1,0 +1,12 @@
+<!--
+  Theme: Elementerial-ArkOS
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <variables>
+        <videoSnapshotSource>image</videoSnapshotSource>
+    </variables>
+
+</theme>

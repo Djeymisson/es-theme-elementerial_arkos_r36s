@@ -1,0 +1,13 @@
+<!--
+  Theme: Elementerial-ArkOS
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <variables>
+        <gridImageSource>thumbnail</gridImageSource>
+        <gridImageMode>minSize</gridImageMode>
+    </variables>
+
+</theme>

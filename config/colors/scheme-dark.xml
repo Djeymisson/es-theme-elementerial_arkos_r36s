@@ -1,0 +1,18 @@
+<!--
+  Theme: Elementerial-ArkOS
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <variables>
+        <fgColor>FFFFFF</fgColor>
+
+        <menu-textsmall-inactive>./assets/images/input_inactive-dark.svg</menu-textsmall-inactive>
+        <menu-textsmall-active>./assets/images/input_active-dark.svg</menu-textsmall-active>
+
+        <grid-gamegrid-gameImage>./assets/icons/cartridge-dark.png</grid-gamegrid-gameImage>
+        <grid-gamegrid-folderImage>./assets/icons/folder-dark.png</grid-gamegrid-folderImage>
+    </variables>
+
+</theme>

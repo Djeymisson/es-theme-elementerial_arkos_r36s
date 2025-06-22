@@ -1,0 +1,156 @@
+<!--
+  Theme: Elementerial-ArkOS
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <view name="system">
+        <!-- Cards position -->
+        <carousel name="systemcarousel">
+            <origin>0.5 0</origin>
+            <pos>0.5 0</pos>
+            <defaultTransition>fade</defaultTransition>
+            <systemInfoDelay>300</systemInfoDelay>
+
+            <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
+            <logoScale>1.4</logoScale>          <!--CHANGED: 1.6 -->
+
+            <size>${systemcarousel-size}</size>
+            <maxLogoCount>${systemcarousel-maxLogoCount}</maxLogoCount>
+            <logoPos>${systemcarousel-logoPos}</logoPos>
+            <color>${bgColor}00</color>
+
+            <zIndex>100</zIndex>
+        </carousel>
+
+        <image name="custom_bg_fg" extra="true">
+            <path>./assets/${ratioPath}/carousel-background.png</path>
+            <size>1 1</size>
+            <origin>0 0</origin>
+            <pos>0 0.15</pos>
+            <zIndex>-7</zIndex>
+        </image>
+
+        <!-- System Name -->
+        <text name="systemName" extra="true">
+            <text>${system.fullName}</text>
+            <origin>0 0</origin>
+            <pos>${systemName-pos}</pos>      <!-- 480x320 / 48x 104y -->
+            <size>0.866667 ${fontSizeH1}</size>      <!-- 480x320 / 416x -->
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>${fontSizeH1}</fontSize>
+            <color>${fgColor}${percent.90}</color>
+            <glowColor>${bgColor}${percent.10}</glowColor>
+            <glowSize>1</glowSize>
+            <lineSpacing>1</lineSpacing>
+            <alignment>left</alignment>
+            <zIndex>15</zIndex>
+        </text>
+
+        <!-- Total games per system -->
+        <text name="systemInfo">
+            <origin>0 0</origin>
+            <pos>${systemInfo-pos}</pos>     <!-- 480x320 / 48x 132y -->
+            <size>0.866667 ${fontSizeBody}</size>      <!-- 480x320 / 416x -->
+            <fontSize>${fontSizeBody}</fontSize>
+            <color>${fgColor}${percent.90}</color>
+            <glowColor>${bgColor}${percent.10}</glowColor>
+            <glowSize>1</glowSize>
+            <alignment>left</alignment>
+            <forceUppercase>0</forceUppercase>
+            <fontPath>${fontRegular}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>15</zIndex>
+        </text>
+
+        <!-- System Logo -->
+        <image name="logo">
+            <path>./assets/logos/${system.theme}.svg</path>
+        </image>
+
+        <!-- Logo Fallback -->
+        <text name="logoText">
+            <origin>0 0</origin>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontSizeBody}</fontSize>
+            <color>${fgColor}</color>
+            <glowColor>${mainColor}${percent.10}</glowColor>
+            <glowSize>1</glowSize>
+        </text>
+
+        <!-- System Background-->
+        <image name="background" extra="true">
+            <path>./assets/background.png</path>
+            <size>1 1</size>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <tile>true</tile>
+            <zIndex>-50</zIndex>
+        </image>
+
+        <!-- System Background-->
+        <image name="cover" extra="true">
+            <pos>0 0.25</pos>
+            <size>1 0</size>
+            <origin>0 0.5</origin>
+            <path>{random:image}</path>
+            <path>./assets/systems/${system.theme}.webp</path>
+            <zIndex>-9</zIndex>
+
+            <storyboard>
+                <animation property="opacity" from="0" to="1" begin="0" duration="1000" mode="easeOut"/>
+            </storyboard>
+        </image>
+
+        <image name="cover_fallback" extra="true">
+            <color>${bgColor}</color>
+        </image>
+
+        <image name="custom_bg_fg" extra="true">
+            <color>${bgColor}</color>
+        </image>
+
+    </view>
+
+    <view name="screen">
+        <text name="clock">
+            <origin>0 0.5</origin>
+            <pos>${clock-pos}</pos>
+            <size>${clock-size}</size>
+            <fontSize>${fontSizeCaption}</fontSize>
+            <fontPath>${fontRegular}</fontPath>
+            <color>FFFFFF</color>
+            <lineSpacing>1</lineSpacing>
+            <alignment>right</alignment>
+        </text>
+
+        <batteryIndicator name="batteryIndicator">
+            <pos>0.90 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y--> <!--CHANGED: 0.93 -->
+            <size>${batteryIndicator-size}</size>
+            <color>FFFFFF</color>
+            <itemSpacing>0.008333333</itemSpacing>
+
+            <!-- Assets -->
+            <full>./assets/icons/screen/16x16/battery=full.svg</full>
+            <at75>./assets/icons/screen/16x16/battery=75.svg</at75>
+            <at50>./assets/icons/screen/16x16/battery=50.svg</at50>
+            <at25>./assets/icons/screen/16x16/battery=25.svg</at25>
+            <empty>./assets/icons/screen/16x16/battery=empty.svg</empty>
+            <incharge>./assets/icons/screen/16x16/battery=charging.svg</incharge>
+            <networkIcon>./assets/icons/screen/16x16/wifi=on.svg</networkIcon>
+        </batteryIndicator>
+
+        <controllerActivity name="controllerActivity">
+            <origin>0 0</origin>
+            <pos>0.016666 0.025</pos>
+            <size>0.025</size>
+            <imagePath>./assets/images/pin.svg</imagePath>
+            <color>${fgColor}${percent.30}</color>
+            <activityColor>${mainColor}${percent.70}</activityColor>
+            <hotkeyColor>${mainColor}</hotkeyColor>
+            <itemSpacing>0.003</itemSpacing>
+        </controllerActivity>
+    </view>
+
+</theme>
