@@ -8,8 +8,8 @@
     <!--Configurações de ajuda-->
     <view name="system, basic, detailed, grid, video">
         <helpsystem name="help">
-            <pos>0.016666667 0.96</pos>
-            <origin>0 0.5</origin>
+            <pos>0.512 0.97</pos>
+            <origin>0.5 0.5</origin>
             <fontPath>${fontHelper}</fontPath>
             <fontSize>${fontSizeCaption}</fontSize>
             <textColor>${fgColor}</textColor>
@@ -17,7 +17,7 @@
         </helpsystem>
 
         <image name="borderOverlay" extra="true">
-            <path>./assets/${ratioPath}/borders.png</path>
+            <path>./assets/ratio43/borders.png</path>
             <pos>0 0</pos>
             <origin>0 0</origin>
             <size>1 1</size>
@@ -83,7 +83,7 @@
             <pos>0 0</pos>
             <size>1 1</size>
             <origin>0 0</origin>
-            <path>./assets/${ratioPath}/gamelist-basic.png</path>
+            <path>./assets/ratio43/gamelist-basic.png</path>
             <color>${bgColor}</color>
             <zIndex>-4</zIndex>
         </image>

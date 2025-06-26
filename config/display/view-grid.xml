@@ -15,8 +15,8 @@
             <padding>0.066666667 0.025</padding>      <!-- 480x320 / 32x 8y -->
             <autoLayout>${grid-gamegrid-autoLayout}</autoLayout>
             <imageSource>${gridImageSource}</imageSource>
-            <gameImage>${grid-gamegrid-gameImage}</gameImage>
-            <folderImage>${grid-gamegrid-folderImage}</folderImage>
+            <gameImage>${gameImage}</gameImage>
+            <folderImage>${folderImage}</folderImage>
             <scrollDirection>horizontal</scrollDirection>
             <scrollLoop>false</scrollLoop>
             <zIndex>5</zIndex>

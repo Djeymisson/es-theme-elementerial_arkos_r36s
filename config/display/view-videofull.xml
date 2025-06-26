@@ -53,7 +53,7 @@
         </text>
 
         <image name="custom_bg_fg" extra="true">
-            <path>./assets/${ratioPath}/gamelist-video.png</path>
+            <path>./assets/ratio43/gamelist-video.png</path>
             <size>1 1</size>
             <origin>0 0</origin>
             <pos>0 0</pos>

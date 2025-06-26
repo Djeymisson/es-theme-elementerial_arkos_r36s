@@ -9,26 +9,27 @@
         <!-- Cards position -->
         <carousel name="systemcarousel">
             <origin>0.5 0</origin>
-            <pos>0.5 0</pos>
+            <pos>0.5 0.01</pos>
             <defaultTransition>fade</defaultTransition>
             <systemInfoDelay>300</systemInfoDelay>
 
-            <logoSize>0.25 0.25</logoSize>      <!-- 480x320 / 120x 80y -->
-            <logoScale>1.4</logoScale>          <!--CHANGED: 1.6 -->
+            <logoSize>0.25 0.25</logoSize>
+            <logoScale>1.4</logoScale>
 
             <size>${systemcarousel-size}</size>
             <maxLogoCount>${systemcarousel-maxLogoCount}</maxLogoCount>
             <logoPos>${systemcarousel-logoPos}</logoPos>
             <color>${bgColor}00</color>
+            <colorEnd>000000FF</colorEnd>
 
             <zIndex>100</zIndex>
         </carousel>
 
         <image name="custom_bg_fg" extra="true">
-            <path>./assets/${ratioPath}/carousel-background.png</path>
+            <path>./assets/ratio43/carousel-background.png</path>
             <size>1 1</size>
             <origin>0 0</origin>
-            <pos>0 0.15</pos>
+            <pos>0 0</pos>
             <zIndex>-7</zIndex>
         </image>
 
@@ -45,7 +46,7 @@
             <glowSize>1</glowSize>
             <lineSpacing>1</lineSpacing>
             <alignment>left</alignment>
-            <zIndex>15</zIndex>
+            <zIndex>999</zIndex>
         </text>
 
         <!-- Total games per system -->

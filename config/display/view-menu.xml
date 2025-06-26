@@ -44,9 +44,9 @@
 
         <menuBackground name="menubg">
             <fadePath>./assets/images/fade.png</fadePath>
-            <path>./assets/${ratioPath}/menu.png</path>
+            <path>./assets/ratio43/menu.png</path>
             <size>1 1</size>
-            <color>${bgColor}</color>
+            <color>${bgColor}DD</color>
         </menuBackground>
 
         <menuButton name="menubutton">

@@ -13,10 +13,12 @@
             <margin>0.016666667 0.025</margin>      <!-- 480x320 / 8x 8y -->
             <padding>0.058333333 0.0375</padding>      <!-- 480x320 / 28x 12y -->
             <scrollDirection>horizontal</scrollDirection>
-            <autoLayout>${lementflix-gamegrid-autoLayout}</autoLayout>
+            <autoLayout>${elementflix-gamegrid-autoLayout}</autoLayout>
             <imageSource>thumb</imageSource>
             <animateSelection>false</animateSelection>
-            <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
+            <autoLayoutSelectedZoom>1.085</autoLayoutSelectedZoom>
+            <gameImage>${gameImage}</gameImage>
+            <folderImage>${folderImage}</folderImage>
         </imagegrid>
 
         <video name="md_video">
@@ -112,11 +114,12 @@
         </text>
 
         <image name="custom_bg_fg" extra="true">
-            <path>./assets/${ratioPath}/gamelist-video.png</path>
+            <path>./assets/ratio43/gamelist-video.png</path>
             <size>1 1</size>
             <origin>0 0</origin>
             <pos>0 0</pos>
             <zIndex>4</zIndex>
+            <color>${bgColor}</color>
         </image>
     </customView>
 
