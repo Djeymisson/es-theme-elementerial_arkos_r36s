@@ -75,7 +75,7 @@
             <size>1 0</size>
             <origin>0 0.5</origin>
             <path>./assets/systems/${system.theme}.webp</path>
-            <opacity>0.3</opacity>
+            <color>FFFFFF${percent.30}</color>
             <zIndex>-5</zIndex>
         </image>
 
@@ -101,8 +101,8 @@
 
     <view name="basic, detailed, video">
         <text name="logoText">
-            <pos>0.033333 0.1</pos>      <!--480x320 / 16x 32y-->
-            <size>0.933333 ${fontSizeH2}</size>      <!-- 480x320 / 448x -->
+            <pos>0.033333 0.1</pos>
+            <size>0.933333 ${fontSizeH2}</size>
             <origin>0 0.5</origin>
         </text>
 

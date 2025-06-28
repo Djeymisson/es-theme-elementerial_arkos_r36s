@@ -5,11 +5,18 @@
 <theme>
     <formatVersion>7</formatVersion>
 
-    <!--Confugurações da view "basic"-->
     <view name="basic">
+        <text name="logoText">
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>${fontSizeH2}</fontSize>
+            <forceUppercase>0</forceUppercase>
+            <alignment>center</alignment>
+        </text>
+
         <textlist name="gamelist">
-            <size>1 0.8</size>      <!-- 480x320 / 480x 256y-->
-            <size ifHelpPrompts="true">1 0.725</size>      <!-- 480x320 / 480x 232y-->
+            <size ifHelpPrompts="true">1 0.8</size>
+            <size ifHelpPrompts="false">1 0.85</size>
+            <alignment>center</alignment>
         </textlist>
     </view>
 

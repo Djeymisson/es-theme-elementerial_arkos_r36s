@@ -71,7 +71,6 @@
         </include>
     </subset>
 
-    <include>./config/display/view-basic.xml</include>
     <include>./config/display/view-detailed.xml</include>
     <include>./config/display/view-grid.xml</include>
     <include>./config/display/view-boxes.xml</include>
@@ -81,6 +80,7 @@
     <include>./config/display/view-general.xml</include>
     <include>./config/display/view-system.xml</include>
     <include>./config/display/view-menu.xml</include>
+    <include>./config/display/view-basic.xml</include>
 
     <subset name="PlayVideo" displayName="Video on carousel">
         <include name="true" displayName="Enabled">./config/variables/view-system-video.xml</include>
