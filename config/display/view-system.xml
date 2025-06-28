@@ -127,7 +127,7 @@
         </text>
 
         <batteryIndicator name="batteryIndicator">
-            <pos>0.90 0.0125</pos>      <!-- 480x320 / 456x (from right to left) 4y--> <!--CHANGED: 0.93 -->
+            <pos>0.90 0.0125</pos>
             <size>${batteryIndicator-size}</size>
             <color>FFFFFF</color>
             <itemSpacing>0.008333333</itemSpacing>

@@ -5,12 +5,6 @@
 <theme>
     <formatVersion>7</formatVersion>
 
-    <view name="system, basic, detailed, grid">
-        <image name="osdBackground" extra="true">
-            <visible>false</visible>
-        </image>
-    </view>
-
     <view name="screen">
         <text name="clock">
             <visible>false</visible>

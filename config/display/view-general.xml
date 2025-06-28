@@ -89,16 +89,6 @@
         </image>
     </view>
 
-    <view name="system, basic, detailed, grid">
-        <image name="osdBackground" extra="true">
-            <pos>0 0</pos>
-            <origin>0 0</origin>
-            <size>1 1</size>
-            <color>000000</color>
-            <zIndex>100</zIndex>
-        </image>
-    </view>
-
     <view name="basic, detailed, video">
         <text name="logoText">
             <pos>0.033333 0.1</pos>
